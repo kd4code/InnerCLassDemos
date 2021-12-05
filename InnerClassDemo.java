@@ -2,7 +2,7 @@ package demo.inner;
 
 public class InnerClassDemo {
 	int p;
-	static int q=5;
+	static int q=10;
    public InnerClassDemo(int p) {
 		super();
 		this.p = p;
@@ -12,7 +12,7 @@ public class InnerClassDemo {
 class Inside
   {
 	int a;
-	static int b=50;
+	static int b=100;
 	String name;
 	public Inside(int a, String name) {
 		super();
